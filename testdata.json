@@ -1,0 +1,233 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "email": "user1@example.com",
+      "phone": "1234567890",
+      "avatar": null,
+      "city": "СПБ",
+      "chat_id": "748213428"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "email": "user2@example.com",
+      "phone": "0987654321",
+      "avatar": null,
+      "city": "СПБ",
+      "chat_id": "748213428"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "email": "user4@example.com",
+      "phone": "1234567890",
+      "avatar": null,
+      "city": "Москва",
+      "chat_id": "748213428"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "email": "user5@example.com",
+      "phone": "0987654321",
+      "avatar": null,
+      "city": "Саратов",
+      "chat_id": "748213428"
+    }
+  },
+ {
+  "model": "habit_tracker_app.Habit",
+  "pk": 1,
+  "fields": {
+    "name": "Привычка 1",
+    "owner": 1,
+    "place": "Дом",
+    "time": "08:00:00",
+    "action": "Утренняя зарядка",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 1,
+    "reward": "Кружка кофе",
+    "execution_time": "00:15:00",
+    "public": true
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 2,
+  "fields": {
+    "name": "Привычка 2",
+    "owner": 1,
+    "place": "Парк",
+    "time": "12:30:00",
+    "action": "Прогулка на свежем воздухе",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 2,
+    "reward": "Ланч в кафе",
+    "execution_time": "01:00:00",
+    "public": true
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 3,
+  "fields": {
+    "name": "Привычка 3",
+    "owner": 2,
+    "place": "Тренажерный зал",
+    "time": "18:00:00",
+    "action": "Тренировка с отягощениями",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 3,
+    "reward": null,
+    "execution_time": "01:30:00",
+    "public": true
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 4,
+  "fields": {
+    "name": "Привычка 4",
+    "owner": 2,
+    "place": "Офис",
+    "time": "10:00:00",
+    "action": "Проверка электронной почты",
+    "is_pleasurable": false,
+    "related_habit": null,
+    "periodic": 1,
+    "reward": null,
+    "execution_time": "00:10:00",
+    "public": true
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 5,
+  "fields": {
+    "name": "Привычка 5",
+    "owner": 3,
+    "place": "Дом",
+    "time": "20:00:00",
+    "action": "Чтение книги",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 1,
+    "reward": null,
+    "execution_time": "01:30:00",
+    "public": false
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 6,
+  "fields": {
+    "name": "Привычка 6",
+    "owner": 3,
+    "place": "Дом",
+    "time": "22:00:00",
+    "action": "Медитация",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 2,
+    "reward": null,
+    "execution_time": "00:30:00",
+    "public": false
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 7,
+  "fields": {
+    "name": "Привычка 7",
+    "owner": 4,
+    "place": "Парк",
+    "time": "16:00:00",
+    "action": "Игра на музыкальном инструменте",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 3,
+    "reward": null,
+    "execution_time": "01:00:00",
+    "public": true
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 8,
+  "fields": {
+    "name": "Привычка 8",
+    "owner": 4,
+    "place": "Дом",
+    "time": "09:00:00",
+    "action": "Уборка помещения",
+    "is_pleasurable": false,
+    "related_habit": null,
+    "periodic": 1,
+    "reward": null,
+    "execution_time": "01:30:00",
+    "public": true
+  }
+},
+  {
+   "model": "habit_tracker_app.Habit",
+  "pk": 9,
+  "fields": {
+    "name": "Привычка 9",
+    "owner": 1,
+    "place": "Тренажерный зал",
+    "time": "17:30:00",
+    "action": "Кардиотренировка",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 2,
+    "reward": null,
+    "execution_time": "01:00:00",
+    "public": false
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 10,
+  "fields": {
+    "name": "Привычка 10",
+    "owner": 2,
+    "place": "Дом",
+    "time": "21:00:00",
+    "action": "Просмотр интересующих видео",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 1,
+    "reward": null,
+    "execution_time": "01:30:00",
+    "public": false
+  }
+},
+  {
+  "model": "habit_tracker_app.Habit",
+  "pk": 13,
+  "fields": {
+    "name": "Привычка 10",
+    "owner": 2,
+    "place": "Дом",
+    "time": "02:12:00",
+    "action": "Просмотр интересующих видео",
+    "is_pleasurable": true,
+    "related_habit": null,
+    "periodic": 1,
+    "reward": null,
+    "execution_time": "01:30:00",
+    "public": false
+  }
+}
+]
