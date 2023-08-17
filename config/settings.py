@@ -167,11 +167,15 @@ CORS_ALLOWED_ORIGINS = [
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
 CELERY_TIMEZONE = 'UTC'
 CELERY_LOG_LEVEL = 'DEBUG'
-CELERY_IMPORTS = ('habit_tracker_app.tasks', )
+CELERY_IMPORTS = ('habit_tracker_app.tasks',)
 CELERY_BEAT_SCHEDULE = {
     'check_habits_and_notify': {
         'task': 'habit_tracker_app.tasks.check_habits_and_notify',
-        'schedule': timedelta(minutes=1)
+        'schedule': timedelta(seconds=30)
+    },
+    'check_action_time': {
+        'task': 'habit_tracker_app.tasks.check_action_time',
+        'schedule': timedelta(seconds=30)
     }
 }
 
